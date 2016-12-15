@@ -10,6 +10,18 @@ Assets View 资产发现、网络拓扑管理系统采用PHP+MYSQL开发，资�
 
 ![Assets View Dashboard](http://i2.buimg.com/567571/1717675c686a44d7.png)
 
+# Topo Scan
+
+------
+
+Topo Scan 网络拓扑发现采用C语言基于<em>SNMP.</em>协议以及nmap实现网络资产拓扑发现, 该部分代码再与web端合并后再上传相应代码！
+
+基于SNMP协议的资产、拓扑发现功能已经完全实现，发现资产直接存入mysql数据库中，并保存拓扑关系；
+
+由于SNMP测试环境不好找，目前又实现了基于nmap的主机发现功能，依赖nmap-7.12
+
+Topo scan在实际使用时需要安装很多依赖库，如果有疑问可以联系开发者交流
+
 
 ### 关于作者
 
@@ -48,4 +60,4 @@ Assets View资产发现、网络拓扑管理系统共包含两个功能模块，
 
 
 作者:Cryin' & Hardy
-2016 年 09月 20日    
+2016 年 12月 02日    
